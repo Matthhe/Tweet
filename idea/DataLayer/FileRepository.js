@@ -2,8 +2,9 @@
 // парсинг через регулярные выражение
 // подгрузка и хранение => асинхронно
 // здесь будет проходить работа с файлами
-import fs from 'fs/promises';
+import fs from 'fs';
 import path from 'path';
+import csv from 'csv-parser';
 import StateParser from './parsers/StateParser.js';
 
 class FileRepository {
@@ -11,8 +12,7 @@ class FileRepository {
         this.datePath = path.join(process.cwd(), 'idea', 'DataLayer', 'data');
     }
 
-    const
-    readStates = async () => {
+    async readStates (){
         try {
             const filePath = path.join(this.datePath, 'states.json');
 
@@ -24,6 +24,24 @@ class FileRepository {
             console.error("Error reading states.json", err);
             throw err;
         }
+    }
 
+    async readSentiments (){
+        const filePath = path.join(this.datePath, 'sentiments.scv');
+
+        const results = {};
+
+        return new Promise((resolve, reject) => {
+            fs.createReadStream(filePath)
+                .pipe(csv(['word', 'score'])) // заголовки, если их нет в файле
+                .on('data', (data) => {
+                    results[data.word] = parseFloat(data.score);
+                })
+                .on('end', () => resolve(results))
+                .on('error', (err) => reject(err));
+        });
     }
 }
+
+
+export default FileRepository;
