@@ -23,7 +23,7 @@ class StateParser {
                         })
                     }
                 })
-            })
+            });
             const center ={
                 lat: totalLat / pointsCount,
                 long: totalLong / pointsCount
@@ -35,4 +35,4 @@ class StateParser {
         return statesArray;
     }
 }
-// all functionality added
+// all functionality of this class added
