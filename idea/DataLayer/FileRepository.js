@@ -27,7 +27,7 @@ class FileRepository {
     }
 
     async readSentiments (){
-        const filePath = path.join(this.datePath, 'sentiments.scv');
+        const filePath = path.join(this.datePath, 'sentiments.csv');
 
         const results = {};
 

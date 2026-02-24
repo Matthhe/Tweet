@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d6a71a6-a29c-4303-b56a-ff2f5a1fc31f" name="Changes" comment="created basic of project, and added StateParser functionality">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idea/idea" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea" beforeDir="false" afterPath="$PROJECT_DIR$/idea" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="0d6a71a6-a29c-4303-b56a-ff2f5a1fc31f" name="Changes" comment="added some information to README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +50,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "javascript.nodejs.core.library.configured.version": "22.17.0",
     "javascript.nodejs.core.library.typings.version": "22.17.2",
@@ -74,11 +71,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\A\Desktop\tweet-project\idea\DataLayer\data" />
       <recent name="C:\Users\A\Desktop\tweet-project" />
       <recent name="C:\Users\A\Desktop\tweet-project\.idea\DataLayer\parsers" />
       <recent name="C:\Users\A\Desktop\tweet-project\.idea\BusinessLayer\services" />
       <recent name="C:\Users\A\Desktop\tweet-project\.idea\DataLayer" />
-      <recent name="C:\Users\A\Desktop\tweet-project\.idea\DataLayer\data" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -96,7 +93,8 @@
       <option name="presentableId" value="Default" />
       <updated>1771425558970</updated>
       <workItem from="1771425560699" duration="1570000" />
-      <workItem from="1771845194673" duration="5251000" />
+      <workItem from="1771845194673" duration="9233000" />
+      <workItem from="1771928694837" duration="4201000" />
     </task>
     <task id="LOCAL-00001" summary="created basic of project, and added StateParser functionality">
       <option name="closed" value="true" />
@@ -106,7 +104,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771848846958</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added some information">
+      <option name="closed" value="true" />
+      <created>1771854865051</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771854865051</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added some information to README.md">
+      <option name="closed" value="true" />
+      <created>1771854995913</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771854995913</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +151,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created basic of project, and added StateParser functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="created basic of project, and added StateParser functionality" />
+    <MESSAGE value="added some information" />
+    <MESSAGE value="added some information to README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some information to README.md" />
   </component>
 </project>
