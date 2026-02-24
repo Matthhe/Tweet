@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0d6a71a6-a29c-4303-b56a-ff2f5a1fc31f" name="Changes" comment="added some information to README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,7 @@
       <updated>1771425558970</updated>
       <workItem from="1771425560699" duration="1570000" />
       <workItem from="1771845194673" duration="9233000" />
-      <workItem from="1771928694837" duration="4201000" />
+      <workItem from="1771928694837" duration="6502000" />
     </task>
     <task id="LOCAL-00001" summary="created basic of project, and added StateParser functionality">
       <option name="closed" value="true" />
