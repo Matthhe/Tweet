@@ -3,9 +3,12 @@
 // подгрузка и хранение => асинхронно
 // здесь будет проходить работа с файлами
 import fs from 'fs';
+import fsPromises from 'fs/promises';
 import path from 'path';
+import readline from 'readline';
 import csv from 'csv-parser';
 import StateParser from './parsers/StateParser.js';
+import TweetParser from './parsers/TweetParser.js';
 
 class FileRepository {
     constructor() {
@@ -16,7 +19,7 @@ class FileRepository {
         try {
             const filePath = path.join(this.datePath, 'states.json');
 
-            const data = await fs.readFile(filePath, 'utf8');
+            const data = await fsPromises.readFile(filePath, 'utf8');
 
             const jsonData = JSON.parse(data);
             return StateParser.parsingStates(jsonData)
@@ -40,6 +43,25 @@ class FileRepository {
                 .on('end', () => resolve(results))
                 .on('error', (err) => reject(err));
         });
+    }
+
+    async readTweets(filename){
+        const filePath = path.join(this.datePath, filename);
+        const fileStream = fs.createReadStream(filePath); // если файл весит больше, чем есть свободная память = ошибка
+
+        const rl = readline.createInterface({
+            input: fileStream,
+            crlfDelay: Infinity // корректная обработка \r \n(один символ и один перенос строки, а так это вообще два символа)
+        });
+
+        const allTweets = []
+
+        for await (const line of rl) { // for await не читает файл в одну милисек, а построчно и асинхронно
+            allTweets.push(TweetParser.parseLine(line)) ;
+        }
+
+        return allTweets;
+
     }
 }
 
