@@ -10,22 +10,6 @@ class StateParser {
             let totalResult = 0
             let pointsCount = 0;
 
-            /*polygons.forEach(polygon => {
-                polygon.forEach(sub => {
-                    if(typeof(sub[0]) ==='number'){
-                        totalLong += sub[0];
-                        totalLat += sub[1];
-                        pointsCount++;
-                    }
-                    else{
-                        sub.forEach(point => {
-                            totalLong += point[0];
-                            totalLat += point[1];
-                            pointsCount++;
-                        })
-                    }
-                })
-            });*/
             const flatPoints = rawData.flat(Infinity)
             for(let i = 0; i < flatPoints.length; i += 2){
                 totalLong += flatPoints[i];

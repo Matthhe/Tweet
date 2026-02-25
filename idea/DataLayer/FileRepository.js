@@ -1,7 +1,3 @@
-// Здесь будет подгрузка и парсинг данных из файлов
-// парсинг через регулярные выражение
-// подгрузка и хранение => асинхронно
-// здесь будет проходить работа с файлами
 import fs from 'fs';
 import fsPromises from 'fs/promises';
 import path from 'path';
@@ -36,7 +32,7 @@ class FileRepository {
 
         return new Promise((resolve, reject) => {
             fs.createReadStream(filePath)
-                .pipe(csv(['word', 'score'])) // заголовки, если их нет в файле
+                .pipe(csv(['word', 'score'])) // первый столбик - слово; второй - число
                 .on('data', (data) => {
                     results[data.word] = parseFloat(data.score);
                 })
