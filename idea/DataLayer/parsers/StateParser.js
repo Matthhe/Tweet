@@ -30,4 +30,6 @@ class StateParser {
         return statesArray;
     }
 }
+
+export default StateParser;
 // all functionality of this class added
