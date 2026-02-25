@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d6a71a6-a29c-4303-b56a-ff2f5a1fc31f" name="Changes" comment="added some information to README.md" />
+    <list default="true" id="0d6a71a6-a29c-4303-b56a-ff2f5a1fc31f" name="Changes" comment="added some information to README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +94,7 @@
       <workItem from="1771425560699" duration="1570000" />
       <workItem from="1771845194673" duration="9233000" />
       <workItem from="1771928694837" duration="9530000" />
-      <workItem from="1772015622268" duration="5025000" />
+      <workItem from="1772015622268" duration="6857000" />
     </task>
     <task id="LOCAL-00001" summary="created basic of project, and added StateParser functionality">
       <option name="closed" value="true" />
