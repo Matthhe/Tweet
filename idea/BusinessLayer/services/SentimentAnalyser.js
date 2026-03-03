@@ -3,22 +3,26 @@ import TweetParser  from "../../DataLayer/parsers/TweetParser.js";
 class SentimentAnalyser{
     static sentimentAnalyser(tweet, results){
         const words = TweetParser.getWords(tweet.text);
+        let totalScore = 0
+        let foundWords = 0
+        for(let i = 0; i < words.length; i++){
+            let mathcFound = false;
+            for(let len = 5; len >= 1; len--){
+                const phraseWords = words.slice(i, i + len);
+                const phrase = phraseWords.join(' ');
+                if(results[phrase] !== undefined){
+                    totalScore += results[phrase];
+                    foundWords++;
+                    i += len - 1
+                    break;
+                }
 
-        let totalScore = 0;
-        let foundWords = 0;
-
-        for( let word of words ){
-            if(results[word] !== undefined){
-                totalScore+= results[word];
-                foundWords++;
             }
         }
-        if(foundWords > 0){
+        if (foundWords > 0){
             return totalScore / foundWords;
         }
-        else{
-            return null;
-        }
+        return null;
     }
 }
 export default SentimentAnalyser;

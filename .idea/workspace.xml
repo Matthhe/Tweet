@@ -29,12 +29,12 @@
     &quot;assignee&quot;: &quot;Matthhe&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Matthhe/Tweet.git",
-    "accountId": "2fb1a53d-e0df-4a09-b3ae-5f47bed121a5"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Matthhe/Tweet.git&quot;,
+    &quot;accountId&quot;: &quot;2fb1a53d-e0df-4a09-b3ae-5f47bed121a5&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -94,7 +94,9 @@
       <workItem from="1771425560699" duration="1570000" />
       <workItem from="1771845194673" duration="9233000" />
       <workItem from="1771928694837" duration="9530000" />
-      <workItem from="1772015622268" duration="6857000" />
+      <workItem from="1772015622268" duration="7326000" />
+      <workItem from="1772027077051" duration="3942000" />
+      <workItem from="1772533690702" duration="1903000" />
     </task>
     <task id="LOCAL-00001" summary="created basic of project, and added StateParser functionality">
       <option name="closed" value="true" />
