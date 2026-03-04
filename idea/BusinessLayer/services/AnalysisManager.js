@@ -11,7 +11,7 @@ class AnalysisManager {
         const sentiment = await repo.readSentiments();
         const tweet = await repo.readTweets(filename);
 
-        const resultByState = {}
+        const resultByState = {} //{ "WA": [0.5, 0.2], "CA": [-0.1] }
         for (let t of tweet) {
             let score = SentimentAnalyser.sentimentAnalyser(t, sentiment);
             if (score == null) {

@@ -6,7 +6,6 @@ class SentimentAnalyser{
         let totalScore = 0
         let foundWords = 0
         for(let i = 0; i < words.length; i++){
-            let mathcFound = false;
             for(let len = 5; len >= 1; len--){
                 const phraseWords = words.slice(i, i + len);
                 const phrase = phraseWords.join(' ');

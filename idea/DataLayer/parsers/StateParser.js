@@ -1,4 +1,4 @@
-import State from './State';
+import State from "../../BusinessLayer/models/State.js"
 
 class StateParser {
     static parsingStates(jsonData){
