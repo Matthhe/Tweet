@@ -43,33 +43,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Node.js.server.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.17.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.17.2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\WebStorm 2025.2.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.app.js.executor": "Run",
+    "Node.js.server.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "22.17.0",
+    "javascript.nodejs.core.library.typings.version": "22.17.2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "ts.external.directory.path": "D:\\WebStorm 2025.2.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;repository&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\A\Desktop\tweet-project\idea\DataLayer\data" />
@@ -103,7 +104,7 @@
       <workItem from="1772632596853" duration="1518000" />
       <workItem from="1772865970905" duration="29000" />
       <workItem from="1773138878772" duration="493000" />
-      <workItem from="1773149936481" duration="1087000" />
+      <workItem from="1773149936481" duration="2984000" />
     </task>
     <task id="LOCAL-00001" summary="created basic of project, and added StateParser functionality">
       <option name="closed" value="true" />
